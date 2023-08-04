@@ -1,0 +1,22 @@
+body {
+    /* background: url("./media/fond.jpg"); */
+    background-size: cover;
+}
+
+.navBar {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar ul {
+    display: grid;
+    /* border: 2px solid black; */
+}
+
+.navBar li {
+    /* display: grid; */
+    border: 2px solid black;
+    /* display: flex; */
+}
+
