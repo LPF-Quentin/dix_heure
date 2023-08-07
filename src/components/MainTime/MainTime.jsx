@@ -27,8 +27,9 @@ const MainTime = () => {
 
   return (
     <div id="mainClock">
-      <div>{data.datetime}</div>
-      <div>{data.timezone}</div>
+      <div id="contentClock">
+        {data.datetime} {data.timezone}
+      </div>
     </div>
   );
 };
