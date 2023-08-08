@@ -3,3 +3,25 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+#multyClock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5vw;
+    // width: 20vw;
+    // height: 5vw;
+    background: rgba(255, 255, 255, 0.308);
+}
+
+#multyContentClock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    // width: 20vw;
+    // height: 5vw;
+    // padding: 2vw;
+}
