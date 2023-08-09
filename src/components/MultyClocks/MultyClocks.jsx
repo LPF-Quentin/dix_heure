@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Research from "../Research/Research";
 
 const MultyClocks = () => {
   const [data, setData] = useState(null);
@@ -31,6 +32,10 @@ const MultyClocks = () => {
         {data.datetime}
         <br />
         {data.timezone}
+      </div>
+      <br />
+      <div>
+        <Research />
       </div>
     </div>
   );

@@ -1,7 +1,5 @@
 import React from "react";
 import Navigation from "../../components/Navigation/Navigation";
-// import MainTime from "../../components/MainTime/MainTime";
-// import Logo from "../../components/Logo/Logo";
 import MultyClocks from "../../components/MultyClocks/MultyClocks";
 
 const AllClocks = () => {

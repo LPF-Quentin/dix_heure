@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <NavLink to="/" id="logo">
+      <NavLink to="/">
         <img src="./pngegg.png" alt="logo app" id="logo" />
       </NavLink>
       <ul>

@@ -11,7 +11,7 @@ const MainTime = () => {
   }, []);
 
   const fetchData = () => {
-    fetch("http://worldtimeapi.org/api/timezone/America/Caracas")
+    fetch("http://worldtimeapi.org/api/ip")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -28,7 +28,9 @@ const MainTime = () => {
   return (
     <div id="mainClock">
       <div id="contentClock">
-        {data.datetime}<br />{data.timezone}
+        {data.datetime}
+        <br />
+        {data.timezone}
       </div>
     </div>
   );
