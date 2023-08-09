@@ -7,6 +7,9 @@ const Research = () => {
       <div className="inputSearch">
         <input type="text" />
       </div>
+      <div className="searchResults">
+        <div className="searchResult">donnée</div>
+      </div>
     </div>
   );
 };
