@@ -1,6 +1,0 @@
-AuthName "Accès réservé"
-AuthType Basic
-AuthUserFile "/home/copiecon/www/dev/.htpasswd"
-Require valid-user
-
-SetEnv PHP_VER 5
